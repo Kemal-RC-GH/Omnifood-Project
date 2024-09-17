@@ -23,15 +23,15 @@ Large: 1.8
 
 --- 02 COLORS
 
-- Primary: #3498db   /* Replaced with blue */
+- Primary: #3498db  
 - Tints:
-#ebf5fb              /* Light blue */
-#d6eaf8              /* Lighter blue */
-#5dade2              /* Medium blue */
+#ebf5fb              
+#d6eaf8              
+#5dade2              
 
 - Shades: 
-#2980b9              /* Darker blue */
-#1c4e80              /* Darkest blue */
+#2980b9             
+#1c4e80             
 
 - Accents:
 - Greys
@@ -46,7 +46,7 @@ Large: 1.8
 
 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
 
---- 06 BORDER-RADIUS
+---  BORDER-RADIUS
 
 Default: 9px
 Medium: 11px
@@ -55,8 +55,8 @@ Medium: 11px
 
 - Spacing system (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-*/
 
+ */
 * {
   padding: 0;
   margin: 0;

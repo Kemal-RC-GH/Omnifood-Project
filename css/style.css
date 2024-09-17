@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #e0f7fa; /* Changed to blue */
+  background-color: #e0f7fa; 
 
   /* Because we want header to be sticky later */
   height: 9.6rem;
@@ -41,7 +41,7 @@
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #0277bd; /* Changed to blue */
+  color: #0277bd; 
 }
 
 .main-nav-link.nav-cta:link,
@@ -49,12 +49,12 @@
   padding: 1.2rem 2.4rem;
   border-radius: 9px;
   color: #fff;
-  background-color: #0288d1; /* Changed to blue */
+  background-color: #0288d1; 
 }
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: #0277bd; /* Changed to blue */
+  background-color: #0277bd; 
 }
 
 /* MOBILE */
@@ -81,7 +81,7 @@
 /**************************/
 
 .section-hero {
-  background-color: #e0f7fa; /* Changed to blue */
+  background-color: #e0f7fa; 
   padding: 4.8rem 0 9.6rem 0;
 }
 
@@ -121,7 +121,7 @@
   width: 4.8rem;
   border-radius: 50%;
   margin-right: -1.6rem;
-  border: 3px solid #e0f7fa; /* Changed to blue */
+  border: 3px solid #e0f7fa; 
 }
 
 .delivered-imgs img:last-child {
@@ -134,7 +134,7 @@
 }
 
 .delivered-text span {
-  color: #0277bd; /* Changed to blue */
+  color: #0277bd; 
   font-weight: 700;
 }
 
@@ -213,14 +213,14 @@
   /* 60% of parent's width */
   padding-bottom: 60%;
 
-  background-color: #e0f7fa; /* Changed to blue */
+  background-color: #e0f7fa;
   z-index: -2;
 }
 
 .step-img-box::after {
   width: 45%;
   padding-bottom: 45%;
-  background-color: #b3e5fc; /* Changed to blue */
+  background-color: #b3e5fc; 
   z-index: -1;
 }
 
@@ -270,13 +270,13 @@
 }
 
 .tag--vegetarian {
-  background-color: #03a9f4; /* Changed to blue */
+  background-color: #03a9f4; 
 }
 .tag--vegan {
-  background-color: #29b6f6; /* Changed to blue */
+  background-color: #29b6f6; 
 }
 .tag--paleo {
-  background-color: #4fc3f7; /* Changed to blue */
+  background-color: #4fc3f7; 
 }
 
 .meal-title {
@@ -303,7 +303,7 @@
 .meal-icon {
   height: 2.4rem;
   width: 2.4rem;
-  color: #0288d1; /* Changed to blue */
+  color: #0288d1; 
 }
 
 .meal-img {
@@ -320,7 +320,7 @@
 /**************************/
 
 .section-testimonials {
-  background-color: #e0f7fa; /* Changed to blue */
+  background-color: #e0f7fa; 
   display: grid;
   grid-template-columns: 55fr 45fr;
   align-items: center;
@@ -391,12 +391,12 @@
 
 .pricing-plan--starter {
   justify-self: end;
-  border: 2px solid #ebf5fb; /* Changed from #fdf2e9 to light blue */
+  border: 2px solid #ebf5fb; 
   padding: 4.6rem;
 }
 
 .pricing-plan--complete {
-  background-color: #ebf5fb; /* Changed from #fdf2e9 to light blue */
+  background-color: #ebf5fb; 
   padding: 4.8rem;
   position: relative;
   overflow: hidden;
@@ -412,7 +412,7 @@
   font-size: 1.4rem;
   font-weight: 700;
   color: #333;
-  background-color: #5dade2; /* Changed from #ffd43b to medium blue */
+  background-color: #5dade2; 
   padding: 0.8rem 8rem;
   transform: rotate(45deg);
 }
@@ -423,7 +423,7 @@
 }
 
 .plan-name {
-  color: #2980b9; /* Changed from #cf711f to darker blue */
+  color: #2980b9; 
   font-weight: 600;
   font-size: 2rem;
   text-transform: uppercase;
@@ -462,10 +462,10 @@
 }
 
 .feature-icon {
-  color: #3498db; /* Changed from #e67e22 to primary blue */
+  color: #3498db; 
   height: 3.2rem;
   width: 3.2rem;
-  background-color: #ebf5fb; /* Changed from #fdf2e9 to light blue */
+  background-color: #ebf5fb; 
   margin-bottom: 3.2rem;
   padding: 1.6rem;
   border-radius: 50%;
@@ -503,13 +503,13 @@
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 11px;
 
-  background-image: linear-gradient(to right bottom, #5dade2, #3498db); /* Changed from #eb984e, #e67e22 to blue gradients */
+  background-image: linear-gradient(to right bottom, #5dade2, #3498db); 
   overflow: hidden;
 }
 
 .cta-text-box {
   padding: 4.8rem 6.4rem 6.4rem 6.4rem;
-  color: #1c4e80; /* Changed from #45260a to darkest blue */
+  color: #1c4e80; 
 }
 
 .cta .heading-secondary {
@@ -527,7 +527,7 @@
 .cta-img-box {
   background-image: linear-gradient(
       to right bottom,
-      rgba(5, 125, 226, 0.35), /* Changed rgba values to blue tones */
+      rgba(5, 125, 226, 0.35), 
       rgba(52, 152, 219, 0.35)
     ),
     url("../img/eating.jpg");
@@ -557,7 +557,7 @@
   font-family: inherit;
   color: inherit;
   border: none;
-  background-color: #ebf5fb; /* Changed from #fdf2e9 to light blue */
+  background-color: #ebf5fb; 
   border-radius: 9px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
@@ -568,7 +568,7 @@
 
 .cta *:focus {
   outline: none;
-  box-shadow: 0 0 0 0.8rem rgba(52, 152, 219, 0.5); /* Changed to blue focus shadow */
+  box-shadow: 0 0 0 0.8rem rgba(52, 152, 219, 0.5); 
 }
 
 /**************************/
